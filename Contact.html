@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/phone-size-logo.png">
+    <title>Contact | TumudiTech</title>
+    <!---CSS LINK------------------------------>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <!----------------------------------------->
+    <!---BOXICON LINK-------------------------->
+    <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!----------------------------------------->
+    <!---BOOTSTRAP5 LINK----------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+    <!----------------------------------------->
+</head>
+<body>
+    <!---HEADER SECTION------------------------------------------------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="IMG/Logo.png" alt="tumuditech-logo" class="w-50"></a>
+          <a class="navbar-brand phone-size" href="index.html"><img src="IMG/phone-size-logo.png" alt="tumuditech-logo" class="w-50"></a>
+          <button class="navbar-toggler" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!---NAVBAR-MENU SECTION------------------------------------------------------------------->
+            <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">about us</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">product</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">reviws</a></li>
+            </ul>
+            <!---------------------------------------------------------------------------------------->
+          </div>
+        </div>
+    </nav>
+    <!------------------------------------------------------------------------------------------------>
+     
+    <section class="contact-page">
+      <div class="container mb-5">
+        <div class="col-md-12 col-lg-8" style="margin-top: 150px;">
+          <h1 class="text-single" style="color: #555; font-weight: 900;">contact us</h1>
+        </div>
+      </div>  
+      <!---FORM SECTION----------------------------------------------------------------------------->
+      <div class="contact mt-5">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <form action="#">
+                  <div class="row g-3 input-content">
+                    <!---INPUT FORM 1--->
+                    <div class="col-md-6">
+                      <label for="your-name" class="form-label required">first name <span>*</span></label>
+                      <input type="text" class="form-control" id="your-name" name="your-name" required 
+                      style="color:#777;"/>
+                    </div>
+                    <!------------------>
+                    <!---INPUT FORM 2--->
+                    <div class="col-md-6">
+                      <label for="your-surname" class="form-label required">second name <span>*</span></label>
+                      <input type="text" class="form-control" id="your-surname" name="your-surname" required 
+                      style="color:#777;"/>
+                    </div>
+                    <!------------------>
+                    <!---INPUT FORM 3--->
+                    <div class="col-md-6">
+                      <label for="your-name" class="form-label required">email <span>*</span></label>
+                      <input type="email" class="form-control" id="your-email" name="your-email" required 
+                      style="color:#777;"/>
+                    </div>
+                    <!------------------>
+                    <!---INPUT FORM 4--->
+                    <div class="col-md-6">
+                      <label for="your-name" class="form-label required">subject</label>
+                      <input type="text" class="form-control" id="your-subject" name="your-subject"  
+                      style="color:#777;"/>
+                    </div>
+                    <!------------------>
+                    <!---INPUT FORM TEXTAREA--->
+                    <div class="col-md-12">
+                      <label for="your-name" class="form-label required">message <span>*</span></label>
+                      <textarea name="your-message" id="your-message" class="form-control" rows="5" 
+                      style="color:#777;"></textarea>
+                    </div>
+                    <!------------------------->
+                    <button class="btn text-white bg-dark px-3 btn-lg rounded-0" style="margin-bottom: 50px;" type="submit">Send Message</button>
+                  </div>
+                </form>
+              </div>
+              <div id="map" class="contact-map col-lg-5 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7088768162052!2d28.047293525415355!3d-26.206146927075384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950f3c834e0e0f%3A0x464411390cd138c3!2sAbsa%20Towers!5e0!3m2!1sen!2sza!4v1722961050224!5m2!1sen!2sza" width="500" height="400" 
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    
+    <!---FOOTER SECTION------------------------------------------------------------------------------->
+    <footer class="bg-dark bg-footer" style="margin-top: 80px;">
+      <div class="container">
+          <div class="row row-content">
+              <div class="col-lg-6 footer-content">
+                  <h5 class="text-light">about us</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />Dolores odio beatae rem optio 
+                      sequi enim minus.<br /> Consequuntur, voluptate amet adipisci praesentium.</p>
+                  <p ><i class='bx bxs-map-pin bx-flip-horizontal' ></i> 164 Main St, City and Suburban, <br />  Johannesburg, 2094</p>
+                  <p ><i class='bx bxs-phone'></i> (063)-798-0458</p>
+                  <p ><i class='bx bxs-envelope'></i> info@tumuditech.com <br />  tumudimothiba@outlook.com</p>
+              </div>
+              <!---QUICK LINKS--------------------------------------------------------------------->
+              <div class="col-lg-3">
+                  <h5 class="text-light">quick links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#home">home</a></li>
+                      <li><a href="#services">services</a></li>
+                      <li><a href="#aboutus">about</a></li>
+                      <li><a href="#reviews">reviews</a></li>
+                      <li><a href="#">contact</a></li>
+                      <li><a href="#">FQA</a></li>
+                  </ul>
+              </div>
+              <!----------------------------------------------------------------------------------->
+
+              <!---SOCIAL MEDIA LINKS-------------------------------------------------------------->
+              <div class="col-lg-3">
+                  <h5 class="text-light">social media links</h5>
+                  <ul class="list-unstyled d-flex gap-2 socials">
+                      <li><a href="#"><i class='bx bxl-facebook-square' style="font-size: 25px;"></i></a></li>
+                      <li><a href="#"><i class='bx bxl-instagram-alt' style="font-size: 25px;" ></i></a></li>
+                      <li><a href="#"><i class='bx bxl-linkedin-square' style="font-size: 25px;"></i></a></li>
+                      <li><a href="#"><i class='bx bxl-github' style="font-size: 25px;"></i></a></li>
+                  </ul>
+              </div>
+              <!----------------------------------------------------------------------------------->
+          </div>
+          <!---COPYRIGHT SECTION------------------------------------------------------------------->
+          <div class="row">
+              <div class="col-lg-12" style="margin-top: 20px; font-size: 12px; font-weight: 200;">
+                  <p class="text-center text-light"> copyright &copy; <a href="#"> tumuditech - 2024 </a> | all rights reserved. </p>
+              </div>
+          </div>
+          <!--------------------------------------------------------------------------------------->
+      </div>
+    </footer>
+    <!----------------------------------------------------------------------------------------------->
+
+
+  <!---SCRIPT LINK FOR BOOTSTRAP5----------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!---------------------------------------->
+  <!---JAVASCRIPT LINK---------------------->
+  <script src="JS/index.js"></script>
+  <!---------------------------------------->
+</body>
+</html>
